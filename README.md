@@ -6,7 +6,7 @@ This project defines and solves a Multi-Agent Path Finding (MAPF) problem using 
 
 ## Project Structure
 
-`mapf.pddl` – Defines the domain, including agent movement rules.
+`mapf-domain.pddl` – Defines the domain, including agent movement rules.
 
 `mapf-problem.pddl` – Defines a specific MAPF problem instance with agents, vertices, and initial/goal states.
 
