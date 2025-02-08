@@ -1,0 +1,4 @@
+(move a7 v6 v5)
+(move a7 v5 v7)
+(move a1 v4 v3)
+(move a1 v3 v1)

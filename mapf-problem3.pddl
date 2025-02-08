@@ -1,0 +1,25 @@
+(define (problem mapf-problem2)
+    (:domain mapf)
+    (:requirements :strips)
+    (:objects
+        v1 v2 v3 v4 v5 - vertex
+        a4 - agent)
+    (:init
+        (at a4 v5)
+        (adjacent v1 v2)
+        (adjacent v2 v1)
+        (adjacent v1 v3)
+        (adjacent v3 v1)
+        (adjacent v2 v3)
+        (adjacent v3 v2)
+        (adjacent v2 v4)
+        (adjacent v4 v2)
+        (adjacent v3 v5)
+        (adjacent v5 v3)
+        (occupied v5)
+        )
+    (:goal (and
+     (at a4 v4)
+     )
+    )
+)
